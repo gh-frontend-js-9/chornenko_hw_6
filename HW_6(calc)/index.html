@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="calculation.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+<style>
+    fieldset {
+        width: 400px;
+        height: 200px;
+    }
+    button {
+        height: 30px;
+        width: 90px;
+    }
+</style>
+    <fieldset>
+        <legend>Calculator</legend>
+        <span>Please enter a number</span>
+        <div>
+            <input type="text" id="n1" placeholder="number1">
+            <input type="text" id="n2" placeholder="number2">
+        </div>
+
+        <div>
+            <button onclick="plus()">Subtraction</button>
+            <button onclick="minus()">Addition</button>
+        </div>
+        <div>
+            <button onclick="devider()">Division</button>
+            <button onclick="multiplication()">Multiplication</button>
+        </div>
+        <div>
+            <span>Result:</span>
+            <p id="out">___</p>
+        </div>
+    </fieldset>
+</body>
+</html>
