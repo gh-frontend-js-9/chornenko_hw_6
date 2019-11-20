@@ -1,5 +1,5 @@
 //first task
-function PropetyArray() {
+function propetyArray() {
     console.log("First task");
     let arr = [4, 12, 3, 80, 0, 22, 56];
     console.log("Initial array [" + arr + "]");
@@ -17,23 +17,23 @@ function PropetyArray() {
     console.log("Min value array=" + MinValueArray);
     console.log("Changed array[" + arr + "]");
 }
-PropetyArray();
+propetyArray();
 
 //second task
 console.log("Second task");
-function WorldOfCat(cats, callback) {
+function worldOfCat(cats, callback) {
     alert(`Do you like a  ${cats} cats.`);
     callback();
 }
 
-WorldOfCat('scotish', function() {
+worldOfCat('scotish', function() {
     alert('Hey, its catmafia for you!');
 });
 console.log("You must seen some message about cat!");
 
 
 //third task
-function DeviderThreeSeven() {
+function deviderThreeSeven() {
     console.log("Third task");
     let mass=[3,5,7,12,14,21,35,42];
     console.log("Initial array[" + mass +"]");
@@ -53,13 +53,13 @@ function DeviderThreeSeven() {
     }
     console.log("Changed array[" + mass+"]");
 }
-DeviderThreeSeven();
+deviderThreeSeven();
 
 
 
 //fourth task
 console.log("Fourth task");
-function WordsMatches() {
+function wordsMatches() {
     let FirstWord=prompt();
     let SecondWord=prompt();
     let index=0;
@@ -76,6 +76,6 @@ function WordsMatches() {
     console.log("Your second word - " + SecondWord);
     console.log("Percentage of matches=" + percent +"%");
 }
-WordsMatches();
+wordsMatches();
 
 
